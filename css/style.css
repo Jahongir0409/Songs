@@ -1,0 +1,114 @@
+
+html {
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+	box-sizing:inherit;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color:#F931C0;
+	font-size: 18px;
+}
+.container {
+
+	width: 1250px;
+	padding: 0 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.main-part {
+	margin: 50px auto 0 auto;
+	width: 1200px;
+	min-height: 200px;
+	background-color: white;
+	border-radius: 5px;
+	box-shadow: 2px 1px 10px black;
+	padding: 30px;
+}
+.list-songs {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.heading-primary{
+	text-align: center;
+	margin: 20px 0;
+	padding: 0;
+	color: #000DFF;
+	font-size: 50px;
+
+}
+.name-song{
+	margin:  0;
+	padding: 0;
+	
+}
+.link-insta{
+	text-decoration: none;
+	color: white;
+	margin: 0;
+	padding: 10px;
+	border-radius: 10px;
+	background-color:  #5465FC  ;
+	margin-bottom: 15px;
+
+}
+.link-song {
+	text-decoration: none;
+	color: white;
+	margin: 0;
+	padding: 10px;
+	border-radius: 10px;
+	background-color:  #FF6955;
+	color: white;
+	margin-bottom: 15px;
+
+
+}
+.link-insta:hover {
+	background-color:#54B3FC;
+}
+.link-song:hover {
+	background-color: #FC778D;
+}
+ audio {
+ 	border: none;
+ 	outline: none;
+ }
+
+.heading-tertiary{
+	margin: 0;
+	padding: 0;
+}
+.item-songs{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	height: 400px;
+	border-radius: 10px;
+	border: 5px solid #FC9E7C;
+	background-repeat: no-repeat;
+	background-size: 310px 400px;
+	box-shadow: 1px 2px 5px black ;
+	padding: 5px;
+
+	
+
+}
+.item-songs:first-child {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.81) ,rgba(0, 0, 0, 0.76)), url(../img/walker.jpg);
+}
+.item-songs:nth-child(2) {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.81) ,rgba(0, 0, 0, 0.76)), url(../img/justinb.jpg);
+}
+.item-songs:last-child {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.81) ,rgba(0, 0, 0, 0.76)), url(../img/alan-walker.jpeg);
+}
